@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: guestbook-ui
 spec:
-  replicas: 2
+  replicas: 1
   revisionHistoryLimit: 3
   selector:
     matchLabels:
@@ -20,7 +20,7 @@ spec:
         - containerPort: 80
         readinessProbe:
           failureThreshold: 3
-          initialDelaySeconds: 15
+          initialDelaySeconds: 5
           periodSeconds: 5
           successThreshold: 2
           tcpSocket:
