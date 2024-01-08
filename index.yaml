@@ -3,7 +3,7 @@ entries:
   hello-world:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-12-09T17:47:52.548756+08:00"
+    created: "2024-01-08T22:14:37.809292+08:00"
     description: A Helm chart for Kubernetes
     digest: b67839bcd1d6f92090a1f39dffe6432c03520dd28fe3b556b731cb6042ac0a98
     name: hello-world
@@ -14,7 +14,27 @@ entries:
   helm-guestbook:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2023-12-09T17:47:52.549599+08:00"
+    created: "2024-01-08T22:14:37.811057+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 805d7146e8795b16e45750c719f4aa1e76fd3b7e841398572d897c87756ee204
+    name: helm-guestbook
+    type: application
+    urls:
+    - https://haowells.github.io/argocd-example-apps/helm-guestbook-1.1.2.tgz
+    version: 1.1.2
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2024-01-08T22:14:37.810561+08:00"
+    description: A Helm chart for Kubernetes
+    digest: be96d34e2cb107ecef7cce8507e41583fed3cde495c8dbb418bdaef1a5472f1d
+    name: helm-guestbook
+    type: application
+    urls:
+    - https://haowells.github.io/argocd-example-apps/helm-guestbook-1.1.1.tgz
+    version: 1.1.1
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2024-01-08T22:14:37.810086+08:00"
     description: A Helm chart for Kubernetes
     digest: 43abc6df23ca7e2d5e117be151c92a134ad48df12dbabac716944d1e9424165e
     name: helm-guestbook
@@ -22,4 +42,4 @@ entries:
     urls:
     - https://haowells.github.io/argocd-example-apps/helm-guestbook-0.1.0.tgz
     version: 0.1.0
-generated: "2023-12-09T17:47:52.547851+08:00"
+generated: "2024-01-08T22:14:37.807946+08:00"
